@@ -1,0 +1,25 @@
+.nav{
+  padding-top: 36px;
+  &__items{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $secondaryText;
+    margin-left: 21px;
+
+    &:nth-child(1) {
+      font-weight: bold;
+      font-size: 1.7rem;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: $primaryText;
+      margin-left: 0;
+    }
+    &:nth-child(2) {
+      margin-left: 117px;
+    }
+  }
+ 
+}

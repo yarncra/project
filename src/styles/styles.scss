@@ -1,0 +1,22 @@
+@import "fonts.scss";
+@import "vars.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  font-size: 14px;
+}
+body {
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+@import "blocks/header.scss";
+@import "blocks/container.scss";
+@import "blocks/nav.scss";
+@import "blocks/cards.scss";
